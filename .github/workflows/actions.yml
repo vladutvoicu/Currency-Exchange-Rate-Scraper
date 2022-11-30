@@ -2,7 +2,7 @@ name: run scraper.py
 
 on:
   schedule:
-    - cron: "* * * * *" # test
+    - cron: "0 12 * * *" # At 12:00 GMT everyday
 
 jobs:
   build:
